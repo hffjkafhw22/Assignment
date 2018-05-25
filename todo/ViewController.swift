@@ -27,7 +27,7 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
         super.viewDidLoad()
 
         // to do event list init.
-        todos = [TodoModel(id:"1",title:"shopping"),TodoModel(id:"2",title:"do ios homework"),TodoModel(id:"3",title:"chat with friend"),TodoModel(id:"4",title:"watch a movie"),TodoModel(id:"5",title:"play the ball")]
+        todos = [TodoModel(id:"1",title:"shopping"),TodoModel(id:"2",title:"do ios homework"),TodoModel(id:"3",title:"chat with friend"),TodoModel(id:"4",title:"watch a movie")]
         // Do any additional setup after loading the view.
     }
 
